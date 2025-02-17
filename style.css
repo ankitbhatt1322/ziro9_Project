@@ -1,0 +1,634 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    cursor: pointer;
+   
+}
+
+.grid_nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 95%;
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+li{
+   
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+li:hover{
+    color: lightgray;
+}
+
+.logo img{
+  
+    width: 180px;
+    z-index: 15px;
+}
+
+
+.right{
+    gap: 20px;
+    justify-content: end;
+}
+
+
+/*SECTION 1 STAERT*/
+
+.sec1{
+  color: #ffff;
+background-color: black;
+}
+
+.sec_picture{
+    width: 100%;
+    height: 500px;
+    background-image: url("WhatsApp Image 2025-02-14 at 1.25.11 PM.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec_picture:hover {
+    width: 100%;
+    height: 500px;
+    background-image: url("WhatsApp\ Image\ 2025-02-14\ at\ 1.25.58\ PM.jpeg");
+}
+
+
+
+.content{
+  
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+/*HEADER VIEW ALL DESING*/
+
+
+
+
+.view_all{
+    width: 100%;
+    height: 40px;
+    color: #ffff;
+    justify-content: end;
+    background-color: black;
+    margin-top: 40px;
+    gap: 10px;
+    
+}
+
+.circle{
+  width:30px ;
+  height: 30px;
+  border-radius:50% ;
+  margin-right: 40px;
+  background-color: rgb(50,48,48);
+
+
+}
+
+
+.circle img:hover{
+    background-color: black;
+    
+}
+
+
+.circle:hover{
+    background-color:#ffff;
+    
+}
+
+  
+
+@media screen and (max-width:990px) {
+    .sec_picture{
+        background-image: url("Adobe\ Express\ -\ file.webp");
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+
+    }
+    .sec_picture:hover{
+     
+background-image:  url("Adobe\ Express\ -\ file.webp");
+background-size: cover;
+width: 100%;
+height: 800px;
+
+    }
+}
+
+
+
+/*SECTION 2 START*/
+
+
+.sec2{
+
+ width: 100%;
+ height: 1050px;   
+background-color: black;
+
+}
+.view_all2{
+    width: 100%;
+   
+    color: #ffff;
+    justify-content: end;
+    background-color: black;
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+
+.group{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 93%;
+    height: 600px;
+    margin: auto;
+    gap: 40px;
+    cursor: pointer;
+
+}
+.billioner_picture {
+   background-image: url("billonier2.jpeg");
+   background-size: cover;
+   background-position: center;
+   width: 450px;
+    height: 550px;
+    margin-top: 70px;
+}
+
+.billioner_picture:hover{
+    background-image: url("billonier1.jpeg");
+    
+}
+
+
+.mafia_picture {
+    width: 450px;
+    height: 550px;
+   background-image: url("mafia2.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+
+.mafia_picture:hover{
+    background-image: url("mafia1.jpeg");
+   
+    
+}
+
+.billioner_mafia_picture{
+    background-image: url("combo.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 550px;
+    margin-top: 70px;
+    
+}
+
+.billioner_mafia_picture:hover{
+background-image: url("mafia2.jpeg");
+
+}
+
+
+
+.billioner_rate{
+    color: #ffff;
+    font-size: 18px;
+    display: flex;
+    width: 153px;
+    height: auto;
+    text-align: center;
+    margin-left: 135px;
+    margin-top: 570px;
+
+}
+
+
+.mafia_rate {
+
+    color: #ffff;
+    font-size: 18px;
+   
+    width: 135px;
+    height: auto;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 570px;
+
+
+
+}
+
+.combo_rate{
+    color: #ffff;
+    font-size: 18px;
+   
+    width: 260px;
+    height: auto;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 570px;
+
+}
+
+
+
+
+.content2{
+  
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+
+
+
+
+@media screen and (max-width:990px) {
+ 
+    .sec2{
+        width: 100%;
+        height: 1500px;
+    }
+
+.group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    height: 1200px;
+    margin: auto;
+    overflow: hidden;
+   
+}
+}
+
+@media screen and (max-width:790px) {
+    .group{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        grid-gap: 10px;
+       
+    }
+    
+    .billioner_picture {
+
+        width: 250px;
+        height: 400px;
+        
+     }
+
+
+     .mafia_picture {
+    
+        width: 250px;
+        height: 400px;
+    }
+    .billioner_mafia_picture{
+      
+        width: 250px;
+        height: 400px;
+        
+    }
+
+    .billioner_rate{
+       
+        margin-top: 430px;
+    margin-left: 0px;
+    }
+
+    .mafia_rate{
+       
+        margin-top: 430px;
+    margin-left: 0px;
+    }
+
+    .combo_rate{
+       margin-left: 0px;
+        margin-top: 430px;
+    
+    }
+    
+
+}
+
+
+/*SECTION 3 START*/
+
+
+.sec3{
+  width: 100%;
+  height: 900px;
+    background-color: black;
+}
+
+
+
+.group2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 93%;
+    height: 700px;
+    margin: auto;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+
+
+.ziro9_collection1{
+    background-image: url("zior9collection1.jpeg");
+    width: 450px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+
+}
+
+.ziro9_collection1:hover{
+    background-image: url("zior9collection2.jpeg");
+   
+}
+
+
+
+
+.ziro9_collection2{
+    background-image: url("zior9collection3.jpeg");
+    width: 450px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+   
+}
+
+.ziro9_collection2:hover{
+    background-image: url("zior9collection4.jpeg");
+  
+}
+
+
+
+
+
+.ziro9_collection3{
+    background-image: url("zior9collection5.jpeg");
+    width: 450px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+   
+}
+
+.ziro9_collection3:hover{
+    background-image: url("zior9collection6.jpeg");
+ 
+}
+
+
+/*rate wrap*/
+
+
+.ziro9_collection_rate{
+
+    
+    color: #ffff;
+    font-size: 18px;
+   
+    width: 203px;
+    height: auto;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 570px;
+font-weight:500 ;
+}
+
+
+.ziro9_collection_rate2{
+
+    font-weight:500 ;
+    color: #ffff;
+    font-size: 18px;
+   
+    width: 198px;
+    height: auto;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 570px;
+
+}
+
+
+
+.ziro9_collection_rate3{
+
+    
+    color: #ffff;
+    font-size: 18px;
+   
+    width: 203px;
+    height: auto;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 570px;
+font-weight:500 ;
+}
+
+
+@media screen and (max-width:990px) {
+
+    .sec3{
+        width: 100%;
+        height: 1500px;
+    }
+    
+
+    .group2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+        height: 1200px;
+        margin: auto;
+        overflow: hidden;
+        
+      
+    }
+
+
+}
+
+@media screen and (max-width:790px){
+
+
+    .group2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+        grid-gap: 10px;
+        margin: auto;
+        overflow: hidden;
+      
+    }
+
+
+    .ziro9_collection1{
+        width: 250px;
+        height: 400px;
+      
+    }
+
+    .ziro9_collection2{
+      
+        width: 250px;
+        height: 400px;
+    }
+
+    .ziro9_collection3{
+       
+        width: 250px;
+        height: 400px;
+    }
+
+
+    .ziro9_collection_rate{
+
+        margin-left: 0px;
+        margin-top: 430px;
+    
+    }
+
+    .ziro9_collection_rate2{
+
+    
+        margin-left: 0px;
+        margin-top: 430px;
+    
+    }
+
+    .ziro9_collection_rate3{
+
+    
+        margin-left: 0px;
+        margin-top: 430px;
+  
+    }
+
+
+
+
+}
+
+
+
+
+
+
+/*SECTION 4 START*/
+
+.sec4{
+    background-color: black;
+    width: 100%;
+    height: 900px;
+}
+
+marquee span{
+margin-bottom: 15px;
+font-size: 70px;
+font-weight: 800;
+margin: 48px;
+font-family: var(--heading-font-family);
+
+}
+
+
+
+
+
+
+
+
+h6{
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 16px;
+font-family: sans-serif;
+color: white;
+margin-bottom: 20px;
+
+
+}
+
+.group3_video{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    width: 100%;
+    height: 700px;
+  
+    overflow-x: scroll ;
+   
+
+}
+
+
+.video_item video{
+    border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin: 5px;
+}
+
+
+
+
+
+
+
